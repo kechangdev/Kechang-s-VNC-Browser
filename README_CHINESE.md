@@ -7,7 +7,13 @@
 使用以下命令运行 Docker 容器：
 
 ```sh
-docker run -d -p 5900:5900 -p 6080:6080 -v ~/chrome-data:/data -e VNC_PASSWORD=yourpassword --name browservnc kechangdev/browser-vnc
+docker run -d \
+		   -p 5900:5900 \
+		   -p 6080:6080 \
+		   -v ~/chrome-data:/data \
+		   -e VNC_PASSWORD=yourpassword \
+		   --name browservnc \
+		   kechangdev/browser-vnc
 ```
 
 - `-p 5900:5900`: 映射 VNC 服务器端口。
