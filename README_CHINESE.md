@@ -2,6 +2,12 @@
 
 这个项目提供了一个 Docker 化的环境，通过使用 noVNC 运行基于 Web 的 VNC 客户端，允许通过 VNC 连接访问 Chromium 浏览器。容器基于 Alpine Linux 构建，包含 Xvfb、x11vnc、fluxbox 和 supervisor 等必要组件来管理进程。
 
+
+
+![](./show.png)
+
+
+
 ## 快速使用
 
 使用以下命令运行 Docker 容器：

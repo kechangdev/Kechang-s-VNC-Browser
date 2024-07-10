@@ -4,6 +4,10 @@ This project provides a Dockerized environment to run a web-based VNC client usi
 
 - [中文文档](./README_CHINESE.md)
 
+![](./show.png)
+
+
+
 ## Usage
 
 To run the Docker container, use the following command:
