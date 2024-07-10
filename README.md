@@ -1,4 +1,4 @@
-# Browser-VNC Docker Container
+# VNC-Browser Docker Container
 
 This project provides a Dockerized environment to run a web-based VNC client using noVNC, enabling access to a Chromium browser via a VNC connection. The container is built using Alpine Linux and includes necessary components such as Xvfb, x11vnc, fluxbox, and supervisor to mRanage the processes.
 
