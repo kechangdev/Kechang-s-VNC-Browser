@@ -14,6 +14,7 @@ To run the Docker container, use the following command:
 
 ```sh
 docker run -d \
+	   --restart unless-stopped \
 	   -p 5900:5900 \
            -p 6080:6080 \
 	   -v ~/chrome-data:/data \
