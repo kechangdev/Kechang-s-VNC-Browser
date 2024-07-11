@@ -14,12 +14,12 @@ To run the Docker container, use the following command:
 
 ```sh
 docker run -d \
-		   -p 5900:5900 \
-		   -p 6080:6080 \
-		   -v ~/chrome-data:/data \
-		   -e VNC_PASSWORD=yourpassword \
-		   --name browservnc \
-		   kechangdev/browser-vnc
+	   -p 5900:5900 \
+           -p 6080:6080 \
+	   -v ~/chrome-data:/data \
+	   -e VNC_PASSWORD=yourpassword \
+	   --name browservnc \
+	   kechangdev/browser-vnc
 ```
 
 - `-p 5900:5900`: Maps the VNC server port.
