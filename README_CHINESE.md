@@ -14,8 +14,9 @@
 
 ```sh
 docker run -d \
+	   --restart unless-stopped \
 	   -p 5900:5900 \
-	   -p 6080:6080 \
+           -p 6080:6080 \
 	   -v ~/chrome-data:/data \
 	   -e VNC_PASSWORD=yourpassword \
 	   --name browservnc \
